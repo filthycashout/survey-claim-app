@@ -31,4 +31,4 @@ jobs:
     - name: Send greeting
       env:
         GREETING_NAME: ${{ inputs.name }}
-      run: printf 'Hello %s\\n' "$GREETING_NAME"
+      run: printf 'Hello %s\n' "$GREETING_NAME"
